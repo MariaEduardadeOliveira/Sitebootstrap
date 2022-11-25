@@ -18,61 +18,124 @@
 <body>
     <div id="preloader"></div>
     <header>
-            <!--Itens da barra de "navegação"-->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> 
-            <!--<button class="navbar-toggler" type="button" data-target="#navigation"> 
-                <span class="navbar-toggler-icon"></span> 
-            </button>-->
-            <div class="container-fluid">
-                 <img class="rounded-circle mr-3" src="https://source.unsplash.com/70x70/?garden" alt="Logo wiki frutas">
-                    <!--O link usado pega uma imagem aleatoria de loja cada vez que o site é resetado-->
-                    <!--A class: rounded-circle faz a imagem ficar com as bordas redondas-->
-                <a class="navbar-brand text-black" href="#">Wikipédia frutifera</a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"> <a href="Pages/login.html" class="nav-link">Entrar</a></li>
-                        <li class="nav-item"><a href="Pages/inscrever.html" class="nav-link">Cadastrar</a></li>
-                        <li class="nav-item"> <a href="Pages/contact.html" class="nav-link">Contatos</a></li>
-                    </ul>
-                </div>
+            <div class="nav-container">
+                              <div class="nav-title">
+                                  <h3>Wiki Frutifera</h3>
+                                  <img class="rounded-circle mr-3" src="https://source.unsplash.com/70x70/?garden">
+                              </div>
+                  
+                              <div class="nav-link-container">
+                                  <div class="nav-links nav-link-settings">
+                                      <div class="nav-menu-header">
+                                          <div class="profile-img">
+                                              
+                                                  alt="profile">
+                                          </div>
+                                      </div>
+                                      <div id="nth" class="nav-links-effect-container">
+                                          
+                                          <a href="#home" class="nav-link" href="#">                           
+                                              <div class="link-anim-set">
+                                                  <div class="link-anim-set-p p1">
+                                                      <div class="link-numbers">01</div><span class="slash">//</span>Home
+                                                  </div>
+                                              </div>
+                                          </a>
+                                          <a href="#skills" class="nav-link" href="#">
+                                          <div class="link-anim-set">
+                                              <div class="link-anim-set-p p2">
+                                                  <div class="link-numbers">02</div><span class="slash">//</span>Skills
+                                              </div>
+                                          </div>
+                                          </a>
+                                          <a href="#projects" class="nav-link" href="#">
+                                          <div class="link-anim-set">
+                                              <div class="link-anim-set-p p3">
+                                                  <div class="link-numbers">03</div><span class="slash">//</span>Projects
+                                              </div>
+                                          </div>
+                                          </a>
+                                          <a href="#about" class="nav-link" href="#">
+                                              <div class="link-anim-set">
+                                                  <div class="link-anim-set-p p4">
+                                                      <div class="link-numbers">04</div><span class="slash">//</span>About me
+                                                  </div>
+                                              </div>
+                                          </a>
+                                          <a href="#contact" class="nav-link" href="#">
+                                              <div class="link-anim-set">
+                                                  <div class="link-anim-set-p p5">
+                                                      <div class="link-numbers">05</div><span class="slash">//</span>Contact
+                                                  </div>
+                                              </div>
+                                          </a>
+                  
+                                          <div class="dot-link-effect"></div>
+                                         
+                                      </div>
+                                      
+                                  </div>
+                                  <button class="menu-btn" href="#"><i class="fa-solid fa-bars-staggered"></i></button>
+                              </div>
+                          </div>
+                      </nav>
+                      <!-- <header>
+                          <div class="container">
+                              <div class="about-header">
+                               Lorem ipsum dolor sit amet consectetur
+                               adipisicing elit. Ea, officia.
+                              </div>
+                          </div>
+                      </header>
+                      <section>
+                          <div class="container">
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta earum officia architecto totam asperiores sequi placeat quae, id vero dolore. Similique, perspiciatis!
+                          </div>
+                    </section> -->
             </div>
         </nav>
 </header>
 <section> <!--Corrosel itens-->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?orange" alt="laranja"> <!--Imagens aleatorias de coisas da cor laranja-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?orange" alt="laranja"> <!--Imagens aleatorias de coisas da cor laranja-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?banana" alt="Banana"> <!--Imagens aleatorias de bananas?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?banana" alt="Banana"> <!--Imagens aleatorias de bananas?-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?apple" alt="Maça"> <!--Imagens aleatorias de maçãs?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?apple" alt="Maça"> <!--Imagens aleatorias de maçãs?-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?watermelon" alt="Melancia"> <!--Imagens aleatorias de maçãs?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?watermelon" alt="Melancia"> <!--Imagens aleatorias de melancia?-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?jabuticaba" alt="Jabuticaba"> <!--Imagens aleatorias de maçãs?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?jabuticaba" alt="Jabuticaba"> <!--Imagens aleatorias de jabuticaba?-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?mamao" alt="Mamão"> <!--Imagens aleatorias de maçãs?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?mamao" alt="Mamão"> <!--Imagens aleatorias de mamão?-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?mango" alt="Manga"> <!--Imagens aleatorias de maçãs?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?mango" alt="Manga"> <!--Imagens aleatorias de manga?-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?grape" alt="Uva"> <!--Imagens aleatorias de maçãs?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?grape" alt="Uva"> <!--Imagens aleatorias de uva?-->
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?avocado" alt="Abacate"> <!--Imagens aleatorias de maçãs?-->
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?avocado" alt="Abacate"> <!--Imagens aleatorias de abacate?-->
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?kiwi" alt="Kiwi"> <!--Imagens aleatorias de kiwi?-->
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x450/?blackberry" alt="Amora"> <!--Imagens aleatorias de amora?-->
                 </div>
             </div>
         </div>
-        </div>
-    </section>
-    <section>
+    </div>
+</section>
+<section>
         <div class="container mb-5">
             <div class="row">
                 <div class="col-sm-12 text-dark text-center my-3">
@@ -229,8 +292,8 @@
                 </div>
             </div>
             <a href="#" class="btn"></a>
-    </section>
-    <footer>
+</section>
+<footer>
         <div class="container-fluid bg-dark p-5">
             <div class="row">
                 <div class="col-sm-12 text-white text-center">
@@ -239,7 +302,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
@@ -259,5 +322,6 @@
             loader.style.display = "none";
         })
     </script>
+    <script src="JS/navbar.js"></script>
 </body>
 </html>
